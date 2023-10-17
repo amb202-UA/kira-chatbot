@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kira</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script type="text/javascript" src="javascript/crypto-js/crypto-js.js"></script>
+    <script type="text/javascript" src="javascript/webFunctions.js"></script>
+</head>
+<body>
+    <section>
+        <img class="corner" alt="Cerrar instrucciones" src="style/images/info.png">
+        <div class="profile">
+            <img src="style/images/user.png" alt="Profile image">
+            <p>Desconocido</p>
+        </div>
+        <div class="chat">
+            <div class="message bot">Bienvenido al bot Kira. ¿Quieres reanudar una partida anterior?</div>
+        </div>
+        <form>
+            <!--<input type="text" name="text" placeholder="Introduce un texto"></input>-->
+            <textarea name="text" placeholder="Escribe un mensaje"></textarea>
+            <div class="passwordField hidePassword"></div>
+            <input type="image" name="submit" src="style/images/send.png" alt="Submit button">
+        </form>
+        <!--<button type="button">Contextos</button>-->
+    </section>
+    <section class="instructions hidden">
+        <img class="corner" alt="Cerrar instrucciones" src="style/images/cross.png">
+        <p>Kira es una aventura conversacional que comienza con un mensaje de un desconocido que necesita tu ayuda. ¿Serás capaz de averiguar qué ocurre y llegar hasta el final?</p>
+        <p>La única forma de avanzar en la aventura es a través de mensajes de texto. Escribe qué quieres que haga y recibirás una respuesta con el resultado de sus acciones. Por ejemplo: "ve al pasillo", "coge las llaves" o "busca información en el ordenador".</p>
+        <p>También puede responder preguntas, pero únicamente dará respuesta a aquellos mensajes relacionados con la aventura. Si acabas de empezar, una forma de iniciar la conversación es preguntándo al desconocido quién es.</p>
+        <p>Tu progreso se guarda automáticamente en los puntos de control. No obstante, puedes guardar partida en cualquier momento pidiéndoselo al bot. Tu progreso queda vinculado a tu nombre de usuario. No olvides tu nombre de usuario ni tu contraseña.</p>
+    </section>
+    <script>codigoPHP()</script>
+</body>
+</html>
